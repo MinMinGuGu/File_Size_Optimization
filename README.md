@@ -14,7 +14,7 @@ Linux可以使用split来解决上述场景问题，但split命令是用来分�
 
 | 参数名              | 参数值     | 说明                                                         |
 | ------------------- | ---------- | ------------------------------------------------------------ |
-| debug               | true/false | 表示debug调式，目前只会打印参数配置                          |
+| debug               | true/false | 表示debug调式，会读取resource下的配置文件并打印参数配置      |
 | replaceSourceFile   | true/false | 影响默认文件处理，**如果为真则会将优化后的文件move到原文件中(被占用时会失败)** |
 | preProcessViewFile  | true/false | 为真则会在处理前请求确认继续下一步                           |
 | deleteProcessedFile | true/false | 为真则会删除处理过的文件                                     |
