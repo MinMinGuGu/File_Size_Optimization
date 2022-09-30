@@ -30,7 +30,7 @@ Linux可以使用split来解决上述场景问题，但split命令是用来分�
 | scanPath               | E:\\Pass\\File_Size_Optimization | 扫描路径                                                     |
 | scanFileNamePattern    | \\w+\\.log                       | 文件名正则                                                   |
 | scanFileSize           | 1GB                              | 取值范围[0,Long.MAX_VALUE] MB/GB，在取0时可以不用带上MB/GB   |
-| optimizationPercentage | 90                               | 取值范围[1,99]，例如10MB的文件，优化后为1MB，取的是文件末尾百分之10的内容 |
+| optimizationPercentage | 90                               | 取值范围[1,99]，例如值为90，那么10MB的文件，优化后为1MB的文件，内容取的是文件末尾百分之10的内容 |
 
 
 
