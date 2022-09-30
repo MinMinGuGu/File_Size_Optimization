@@ -31,7 +31,7 @@ import java.util.regex.Pattern;
  */
 public abstract class AbstractFileService {
 
-    private static final Pattern PROCESSED_FILE_PATTERN = Pattern.compile("(\\d|.)*_Optimization_End_(.|\\.pass)+");
+    private static final Pattern PROCESSED_FILE_PATTERN = Pattern.compile(".+_Optimization_End_.+");
 
     protected static final String DEFAULT_PROCESS_FLAG = "_Optimization_End_";
 
