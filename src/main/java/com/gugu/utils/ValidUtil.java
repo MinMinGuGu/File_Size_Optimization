@@ -23,7 +23,7 @@ public class ValidUtil {
      * @return the boolean
      */
     public static boolean checkFilePath(Path path) {
-        return Files.notExists(path) && Files.isDirectory(path);
+        return Files.notExists(path) || Files.isDirectory(path);
     }
 
     /**
